@@ -13,6 +13,9 @@
 		239F2FCB287C910A00D5B926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239F2FC9287C910A00D5B926 /* Main.storyboard */; };
 		239F2FCD287C910B00D5B926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239F2FCC287C910B00D5B926 /* Assets.xcassets */; };
 		239F2FD0287C910B00D5B926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239F2FCE287C910B00D5B926 /* LaunchScreen.storyboard */; };
+		239F2FD8287DCFF000D5B926 /* RandomSandwichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239F2FD7287DCFF000D5B926 /* RandomSandwichViewController.swift */; };
+		239F2FDA287DD4EA00D5B926 /* CustomiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239F2FD9287DD4EA00D5B926 /* CustomiseViewController.swift */; };
+		239F2FDC287DE31D00D5B926 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239F2FDB287DE31D00D5B926 /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		239F2FCC287C910B00D5B926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239F2FCF287C910B00D5B926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239F2FD1287C910B00D5B926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239F2FD7287DCFF000D5B926 /* RandomSandwichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSandwichViewController.swift; sourceTree = "<group>"; };
+		239F2FD9287DD4EA00D5B926 /* CustomiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomiseViewController.swift; sourceTree = "<group>"; };
+		239F2FDB287DE31D00D5B926 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				239F2FC3287C910A00D5B926 /* AppDelegate.swift */,
 				239F2FC5287C910A00D5B926 /* SceneDelegate.swift */,
 				239F2FC7287C910A00D5B926 /* ViewController.swift */,
+				239F2FD9287DD4EA00D5B926 /* CustomiseViewController.swift */,
+				239F2FD7287DCFF000D5B926 /* RandomSandwichViewController.swift */,
+				239F2FDB287DE31D00D5B926 /* Ingredient.swift */,
 				239F2FC9287C910A00D5B926 /* Main.storyboard */,
 				239F2FCC287C910B00D5B926 /* Assets.xcassets */,
 				239F2FCE287C910B00D5B926 /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239F2FDA287DD4EA00D5B926 /* CustomiseViewController.swift in Sources */,
 				239F2FC8287C910A00D5B926 /* ViewController.swift in Sources */,
+				239F2FDC287DE31D00D5B926 /* Ingredient.swift in Sources */,
 				239F2FC4287C910A00D5B926 /* AppDelegate.swift in Sources */,
+				239F2FD8287DCFF000D5B926 /* RandomSandwichViewController.swift in Sources */,
 				239F2FC6287C910A00D5B926 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L29BX47K7U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SandWhich/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L29BX47K7U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SandWhich/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
