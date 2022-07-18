@@ -30,6 +30,7 @@
 		239F2FD7287DCFF000D5B926 /* RandomSandwichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSandwichViewController.swift; sourceTree = "<group>"; };
 		239F2FD9287DD4EA00D5B926 /* CustomiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomiseViewController.swift; sourceTree = "<group>"; };
 		239F2FDB287DE31D00D5B926 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		23A4A90A2885C1750073E8BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 		239F2FB7287C910A00D5B926 = {
 			isa = PBXGroup;
 			children = (
+				23A4A90A2885C1750073E8BC /* README.md */,
 				239F2FC2287C910A00D5B926 /* SandWhich */,
 				239F2FC1287C910A00D5B926 /* Products */,
 			);
